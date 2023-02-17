@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="775de172-8f5b-4b63-8afa-c4f45879b327" name="Changes" comment="lesson3 homework">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lesson4/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/lesson4/TriangleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/lesson5/AbstractTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/lesson5/LessonTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,11 +26,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -59,15 +55,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/Git/web_test-master",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.archetype.catalogs"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Git/web_test-master&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.archetype.catalogs&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="org.lesson4" />
@@ -81,11 +77,50 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TriangleTest">
-    <configuration name="All in GB_WUIJ" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.LessonTest.myTest2">
+    <configuration name="LessonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GB_WUIJ" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.lesson5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.lesson5" />
+      <option name="MAIN_CLASS_NAME" value="org.lesson5.LessonTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LessonTest.myTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GB_WUIJ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.lesson5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.lesson5" />
+      <option name="MAIN_CLASS_NAME" value="org.lesson5.LessonTest" />
+      <option name="METHOD_NAME" value="myTest1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LessonTest.myTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GB_WUIJ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.lesson5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.lesson5" />
+      <option name="MAIN_CLASS_NAME" value="org.lesson5.LessonTest" />
+      <option name="METHOD_NAME" value="myTest2" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -101,38 +136,6 @@
       <option name="PACKAGE_NAME" value="org.lesson4" />
       <option name="MAIN_CLASS_NAME" value="org.lesson4.TriangleTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TriangleTest.testTriangleArea" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="GB_WUIJ" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.lesson4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.lesson4" />
-      <option name="MAIN_CLASS_NAME" value="org.lesson4.TriangleTest" />
-      <option name="METHOD_NAME" value="testTriangleArea(int,int,int,double)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TriangleTest.testTriangleAreaWithInvalidTriangle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="GB_WUIJ" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.lesson4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.lesson4" />
-      <option name="MAIN_CLASS_NAME" value="org.lesson4.TriangleTest" />
-      <option name="METHOD_NAME" value="testTriangleAreaWithInvalidTriangle" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -155,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LessonTest.myTest2" />
+        <item itemvalue="JUnit.LessonTest" />
+        <item itemvalue="JUnit.LessonTest.myTest1" />
         <item itemvalue="JUnit.TriangleTest" />
         <item itemvalue="JUnit.TriangleTest.testTriangleAreaWithNegativeSides" />
-        <item itemvalue="JUnit.TriangleTest.testTriangleAreaWithInvalidTriangle" />
-        <item itemvalue="JUnit.TriangleTest.testTriangleArea" />
-        <item itemvalue="JUnit.All in GB_WUIJ" />
       </list>
     </recent_temporary>
   </component>
@@ -207,6 +210,17 @@
     <MESSAGE value="maven quickstart" />
     <MESSAGE value="lesson3 homework" />
     <option name="LAST_COMMIT_MESSAGE" value="lesson3 homework" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/lesson5/LessonTest.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
