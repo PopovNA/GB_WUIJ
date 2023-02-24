@@ -17,7 +17,7 @@ public class ForgotPasswordPage extends AbstractPage {
     @FindBy(xpath = "//button[contains(.,'Отправить')]")
     private WebElement sendButton;
 
-    @FindBy(xpath = "//button[contains(.,'Я ошибся с вводом')]")
+    @FindBy(xpath = "//button[contains(.,'Я ошибся с вводом e-mail')]")
     private WebElement cancelButton;
 
     public void sendEmail(String email) {

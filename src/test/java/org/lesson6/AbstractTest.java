@@ -11,7 +11,6 @@ import java.util.concurrent.TimeUnit;
 public abstract class AbstractTest {
 
     private static WebDriver driver;
-    private static ChromeOptions options;
     @BeforeAll
     static void init(){
         WebDriverManager.chromedriver().setup();

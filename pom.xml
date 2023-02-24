@@ -19,6 +19,8 @@
     <webdrivermanager.version>5.0.3</webdrivermanager.version>
     <maven.surefire.plugin>2.22.1</maven.surefire.plugin>
     <aspectj.version>1.8.13</aspectj.version>
+    <allure-maven.version>2.10.0</allure-maven.version>
+    <allure.version>2.15.0</allure.version>
   </properties>
 
   <dependencies>
@@ -68,6 +70,18 @@
       <version>${webdrivermanager.version}</version>
       <scope>compile</scope>
     </dependency>
+    <dependency>
+      <groupId>io.qameta.allure</groupId>
+      <artifactId>allure-java-commons</artifactId>
+      <version>2.15.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.qameta.allure</groupId>
+      <artifactId>allure-junit5</artifactId>
+      <version>${allure.version} </version>
+      <scope>test</scope>
+    </dependency>
   </dependencies>
   <build>
     <plugins>
@@ -100,6 +114,15 @@
             <version>1.8.13</version>
           </dependency>
         </dependencies>
+      </plugin>
+      <plugin>
+        <groupId>io.qameta.allure</groupId>
+        <artifactId>allure-maven</artifactId>
+        <version> ${allure-maven.version} </version>
+        <configuration>
+
+          <buildDirectory>D:\Git\GB_WUIJ</buildDirectory>
+        </configuration>
       </plugin>
     </plugins>
   </build>
